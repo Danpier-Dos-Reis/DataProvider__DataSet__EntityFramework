@@ -1,0 +1,13 @@
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFrameworkExample.exe.config
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFrameworkExample.exe
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFrameworkExample.pdb
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFramework.dll
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFramework.xml
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\obj\Debug\EntityFrameworkExample.csproj.AssemblyReference.cache
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\obj\Debug\EntityFrameworkExample.csproj.SuggestedBindingRedirects.cache
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\obj\Debug\EntityFrameworkExample.csproj.CoreCompileInputs.cache
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\obj\Debug\EntityFrameworkExample.csproj.CopyComplete
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\obj\Debug\EntityFrameworkExample.exe
+C:\Users\Danpier\Desktop\Practices\ManipulacionDataSet\VS 2022\EntityFrameworkExample\EntityFrameworkExample\obj\Debug\EntityFrameworkExample.pdb
