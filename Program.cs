@@ -1,23 +1,60 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System.Data.SqlClient;
+using System.Data;
 
-string connectionstring = @"Data Source=DANPIER2022; Initial Catalog=TaskyApp;
-                            User id=sa; Password=th16g0;";
-string query = "SELECT * FROM Areas";
-
-using (SqlConnection conection = new SqlConnection(connectionstring)){
-    SqlCommand command = new SqlCommand(query,conection);
-    try
+internal class Program
+{
+    private static void Main(string[] args)
     {
-        conection.Open();
-        SqlDataReader reader = command.ExecuteReader();
-        while(reader.Read()){       /*reader[0] = Primera Columna ; reader[1] = Segunda Columna*/
-            Console.WriteLine("{0} -- {1}",reader[0],reader[1]);
+        DataSet dataSet = new DataSet(); //Creamos DataSet
+
+        dataSet.Tables.Add("MyTablePersonas"); //Creamos un Tabla
+        dataSet.Tables.Add("Presidentes");
+
+        //Creamos y seteamos columnas en la Presidentes
+        DataColumn cNombre = new DataColumn("Nombre",typeof(string));
+        DataColumn cPais = new DataColumn("Pais",typeof(string));
+        dataSet.Tables["Presidentes"]?.Columns.Add(cNombre);
+        dataSet.Tables["Presidentes"]?.Columns.Add(cPais);
+
+        DataColumn cEdad = new DataColumn("Edad",typeof(string));
+        DataColumn cCiudad = new DataColumn("Ciudad",typeof(string));
+        DataColumn cTelefono = new DataColumn("Telefono",typeof(string));
+
+        //Podemos pasar un array de columnas
+        dataSet.Tables["MyTablePersonas"]?.Columns.AddRange(new[]{
+            cEdad,cCiudad,cTelefono
+        });
+
+        //Creamos Filas/Rows que se insertan en las columnas
+        DataRow rowsTablePersonas = dataSet.Tables["MyTablePersonas"].NewRow();
+        //rowsTablePersonas["Nombre"] = "Maximiliano";
+        rowsTablePersonas["Edad"] = 1;
+        rowsTablePersonas["Ciudad"] = "Caracas";
+        rowsTablePersonas["Telefono"] = 0;
+        dataSet.Tables["MyTablePersonas"]?.Rows.Add(rowsTablePersonas);
+
+        /* *Ejemplo de como añadir varios valores a la vez*
+        foreach (var persona in listaPersonas)
+        {
+            DataRow row = dataSet.Tables["MyTablePersonas"].NewRow();
+            row["Nombre"] = persona.Nombre;
+            row["Apellido"] = persona.Apellido;
+            row["Edad"] = persona.Edad;
+            dataSet.Tables["MyTablePersonas"].Rows.Add(row);
         }
-        conection.Close();
-    }
-    catch (Exception error)
-    {
-        Console.WriteLine(error.Message);
+        */
+
+        //Imprimimos los datasets
+        foreach(DataColumn columna in dataSet.Tables["MyTablePersonas"]?.Columns){
+            Console.WriteLine(rowsTablePersonas[columna]);
+            Console.ReadKey();
+        }
+
+        /* *Ejemplo Bucle FOR*
+        for (int i = 0; i < dataSet.Tables["MyTablePersonas"].Columns.Count; i++)
+        {
+            Console.WriteLine(row[i]);
+        }
+        */
     }
 }
