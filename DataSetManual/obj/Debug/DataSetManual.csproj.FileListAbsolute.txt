@@ -1,0 +1,8 @@
+C:\Users\Danpier\Desktop\Practices\DataProvider__DataSet__EntityFramework\DataSetManual\bin\Debug\DataSetManual.exe.config
+C:\Users\Danpier\Desktop\Practices\DataProvider__DataSet__EntityFramework\DataSetManual\bin\Debug\DataSetManual.exe
+C:\Users\Danpier\Desktop\Practices\DataProvider__DataSet__EntityFramework\DataSetManual\bin\Debug\DataSetManual.pdb
+C:\Users\Danpier\Desktop\Practices\DataProvider__DataSet__EntityFramework\DataSetManual\obj\Debug\DataSetManual.csproj.AssemblyReference.cache
+C:\Users\Danpier\Desktop\Practices\DataProvider__DataSet__EntityFramework\DataSetManual\obj\Debug\DataSetManual.csproj.SuggestedBindingRedirects.cache
+C:\Users\Danpier\Desktop\Practices\DataProvider__DataSet__EntityFramework\DataSetManual\obj\Debug\DataSetManual.csproj.CoreCompileInputs.cache
+C:\Users\Danpier\Desktop\Practices\DataProvider__DataSet__EntityFramework\DataSetManual\obj\Debug\DataSetManual.exe
+C:\Users\Danpier\Desktop\Practices\DataProvider__DataSet__EntityFramework\DataSetManual\obj\Debug\DataSetManual.pdb
